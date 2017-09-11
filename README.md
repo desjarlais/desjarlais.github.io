@@ -1,3 +1,3 @@
 # desjarlais.github.io
 
-My Web Page
+My sample web page for testing purposes.
