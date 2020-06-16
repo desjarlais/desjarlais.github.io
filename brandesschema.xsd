@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Types"
+    targetNamespace="http://tempuri.org/"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/"
+    xmlns:mstns="http://tempuri.org/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Types">
+    <xs:annotation>
+      <xs:documentation>.NET types</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="String" />
+      <xs:enumeration value="Int16" />
+      <xs:enumeration value="Int32" />
+      <xs:enumeration value="Int64" />
+      <xs:enumeration value="DateTime" />
+      <xs:enumeration value="Double" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="DataSize">
+    <xs:annotation>
+      <xs:documentation>Number of bytes of the data</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:int" />
+  </xs:simpleType>
+
+  <!-- ... -->
+
+</xs:schema>
